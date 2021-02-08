@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_concerts"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="@string/title_concerts" />
+
+    <item
+        android:id="@+id/navigation_listen"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/title_listen" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/title_profile" />
+
+</menu>
