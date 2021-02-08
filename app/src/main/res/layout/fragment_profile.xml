@@ -6,34 +6,44 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/signin"
+        android:id="@+id/signout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="122dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="308dp"
         android:layout_marginEnd="123dp"
         android:background="#00F"
         android:icon="@android:drawable/ic_menu_day"
         android:padding="10sp"
-        android:text="SIGN IN WITH GOOGLE"
+        android:text="Sign Out"
         android:textColor="#FFF"
         android:textColorLink="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">SCHEDULE
-    </Button>
+        app:layout_constraintTop_toTopOf="parent">SCHEDULE</Button>
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signin"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="147dp"
-        android:layout_marginEnd="103dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="bruh"
+        android:text="You are not logged in."
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

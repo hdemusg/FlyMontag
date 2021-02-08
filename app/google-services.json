@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "248387974487",
+    "project_id": "flymontag-58279",
+    "storage_bucket": "flymontag-58279.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248387974487:android:f3c1c47a3a9e6384473a12",
+        "android_client_info": {
+          "package_name": "io.github.hdemusg.flymontag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248387974487-fn6fe8ria7em5uo53pd9iohgflhceg96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.hdemusg.flymontag",
+            "certificate_hash": "70dc07e699ee89cedc76fc15537e252f38d934ab"
+          }
+        },
+        {
+          "client_id": "248387974487-rpujplm6ohc4o6b6fdctt4ad01jjsdtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRs0vWks48BYJ7e47Jop8zf37tL94XW0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248387974487-rpujplm6ohc4o6b6fdctt4ad01jjsdtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
