@@ -1,6 +1,10 @@
+/*
+  Author: Sumedh Garimella
+  Description: The entrypoint of the app.
+ */
+
 package io.github.hdemusg.flymontag;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -8,13 +12,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.auth.FirebaseUser;
-
-import android.net.Uri;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -22,7 +20,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import io.github.hdemusg.flymontag.ui.project.ProfileFragment;
+import io.github.hdemusg.flymontag.ui.profile.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity {
 

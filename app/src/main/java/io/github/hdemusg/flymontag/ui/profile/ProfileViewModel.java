@@ -1,4 +1,4 @@
-package io.github.hdemusg.flymontag.ui.project;
+package io.github.hdemusg.flymontag.ui.profile;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

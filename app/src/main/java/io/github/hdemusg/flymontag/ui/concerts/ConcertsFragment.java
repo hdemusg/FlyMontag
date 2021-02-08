@@ -20,6 +20,11 @@ import androidx.lifecycle.ViewModelProviders;
 
 import io.github.hdemusg.flymontag.R;
 
+/*
+  Author: Sumedh Garimella
+  Description: The Concerts page allows fans to RSVP for events and add them to their calendars.
+ */
+
 public class ConcertsFragment extends Fragment {
 
     private ConcertsViewModel concertsViewModel;

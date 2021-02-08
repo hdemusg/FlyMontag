@@ -17,6 +17,12 @@ import androidx.lifecycle.ViewModelProviders;
 
 import io.github.hdemusg.flymontag.R;
 
+/*
+  Author: Sumedh Garimella
+  Description: This describes the Listen page. Fans can currently go directly to my Spotify page,
+  and will be able to listen to music directly from the page in future editions.
+ */
+
 public class ListenFragment extends Fragment {
 
     private ListenViewModel listenViewModel;
