@@ -7,7 +7,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         app:cardBackgroundColor="#ff0000"
         android:layout_margin="10sp"
         android:padding="15sp"
@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="10sp"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/colorPrimary"
                 android:icon="@android:drawable/ic_menu_day"
                 android:text="ADD"
                 android:textColor="@android:color/white"
